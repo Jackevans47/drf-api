@@ -116,7 +116,6 @@ if "CLIENT_ORIGIN_DEV" in os.environ:
         r"^https:\/\/.*\.codeinstitute-ide\.net$",
     ]
 
-
 CORS_ALLOW_CREDENTIALS = True
 
 
