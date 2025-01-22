@@ -65,7 +65,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = "DEV" in os.environ
 
 
-ALLOWED_HOSTS = ["localhost", "f1-social-api.herokuapp.com"]
+ALLOWED_HOSTS = ["localhost", "f1-social-api-910f5cff82da.herokuapp.com"]
 
 
 # Application definition
