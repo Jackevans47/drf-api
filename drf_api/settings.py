@@ -109,6 +109,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    # Downloaded Middleware
     "allauth.account.middleware.AccountMiddleware",
 ]
 if "CLIENT_ORIGIN_DEV" in os.environ:
