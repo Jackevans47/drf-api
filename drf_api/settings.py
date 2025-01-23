@@ -121,20 +121,8 @@ AUTHENTICATION_BACKENDS = [
     "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True
-
 CORS_ALLOW_CREDENTIALS = True
-
-
-CORS_EXPOSE_HEADERS = ["set-cookie"]
-
-SESSION_COOKIE_SAMESITE = "None"
-
-SESSION_COOKIE_SECURE = True
-
-CSRF_COOKIE_SAMESITE = "None"
-
-CSRF_COOKIE_SECURE = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 ROOT_URLCONF = "drf_api.urls"
