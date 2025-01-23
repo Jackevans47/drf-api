@@ -87,6 +87,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "allauth",
     "allauth.account",
+    "allauth.account.middleware",
     "allauth.socialaccount",
     "dj_rest_auth.registration",
     "corsheaders",
@@ -133,14 +134,6 @@ TEMPLATES = [
             ],
         },
     },
-]
-
-
-AUTHENTICATION_BACKENDS = [
-    # Needed to login by username in Django admin, regardless of `allauth`
-    "django.contrib.auth.backends.ModelBackend",
-    # `allauth` specific authentication methods, such as login by email
-    "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
 WSGI_APPLICATION = "drf_api.wsgi.application"
