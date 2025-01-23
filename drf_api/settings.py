@@ -66,10 +66,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = "DEV" in os.environ
 
 
-ALLOWED_HOSTS = [
-    os.environ.get("ALLOWED_HOST"),
-    "localhost",
-]
+ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOST"), "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -110,7 +107,6 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     # Downloaded Middleware
-    "allauth.account.middleware",
     "allauth.account.middleware.AccountMiddleware",
 ]
 if "CLIENT_ORIGIN_DEV" in os.environ:
