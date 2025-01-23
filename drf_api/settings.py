@@ -87,7 +87,6 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "allauth",
     "allauth.account",
-    "allauth.account.middleware",
     "allauth.socialaccount",
     "dj_rest_auth.registration",
     "corsheaders",
@@ -115,7 +114,27 @@ if "CLIENT_ORIGIN_DEV" in os.environ:
         r"^https:\/\/.*\.codeinstitute-ide\.net$",
     ]
 
+
+# django-allauth configurations
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
 CORS_ALLOW_CREDENTIALS = True
+
+
+CORS_EXPOSE_HEADERS = ["set-cookie"]
+
+SESSION_COOKIE_SAMESITE = "None"
+
+SESSION_COOKIE_SECURE = True
+
+CSRF_COOKIE_SAMESITE = "None"
+
+CSRF_COOKIE_SECURE = True
 
 
 ROOT_URLCONF = "drf_api.urls"
