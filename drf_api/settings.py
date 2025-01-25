@@ -10,10 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-import re
 from pathlib import Path
 import os
 import dj_database_url
+import re
 
 
 if os.path.exists("env.py"):
@@ -65,6 +65,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "DEV" in os.environ
 
+CSRF_TRUSTED_ORIGINS = ["https://f1-social-api-910f5cff82da.herokuapp.com"]
 
 ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOST"), "localhost", "127.0.0.1"]
 
