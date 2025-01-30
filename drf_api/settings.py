@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-import re
 
 
 if os.path.exists("env.py"):
@@ -63,9 +62,9 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = "DEV" in os.environ
+DEBUG = "DEBUG" in os.environ
 
-CSRF_TRUSTED_ORIGINS = ["https://f1-social-api-910f5cff82da.herokuapp.com"]
+# CSRF_TRUSTED_ORIGINS = ["https://f1-social-api-910f5cff82da.herokuapp.com"]
 
 ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOST"), "localhost", "127.0.0.1"]
 
@@ -110,11 +109,12 @@ MIDDLEWARE = [
     # Downloaded Middleware
     # "allauth.account.middleware.AccountMiddleware",
 ]
-if "CLIENT_ORIGIN_DEV" in os.environ:
-    CORS_ALLOWED_ORIGIN_REGEXES = [
-        r"^https:\/\/.*\.codeinstitute-ide\.net$",
-    ]
+# if "CLIENT_ORIGIN_DEV" in os.environ:
+#     CORS_ALLOWED_ORIGIN_REGEXES = [
+#         r"^https:\/\/.*\.codeinstitute-ide\.net$",
+#     ]
 
+CORS_ALLOWED_ORIGINS = [os.environ.get("CLIENT_ORIGIN")]
 
 # django-allauth configurations
 AUTHENTICATION_BACKENDS = [
@@ -122,7 +122,7 @@ AUTHENTICATION_BACKENDS = [
     "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
-CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOW_CREDENTIALS = True
 
 
 ROOT_URLCONF = "drf_api.urls"
