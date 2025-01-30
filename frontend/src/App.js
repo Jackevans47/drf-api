@@ -8,6 +8,7 @@ import SignInForm from "./pages/auth/SignInForm";
 import PostCreateForm from "./pages/posts/PostCreateForm";
 import PostPage from "./pages/posts/PostPage";
 import PostsPage from "./pages/posts/PostsPage";
+import EventsPage from "./pages/events/EventsPage";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
 import ProfilePage from "./pages/profiles/ProfilePage";
@@ -72,6 +73,10 @@ function App() {
             path="/profiles/:id/edit"
             render={() => <ProfileEditForm />}
           />
+          <Route exact path="/events" render={() => <EventsPage />} />
+          {/* <Route exact path="/events" component={EventsPage} /> */}
+
+          <Route exact path="/boop" render={() => <p>BOOP</p>} />
 
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
