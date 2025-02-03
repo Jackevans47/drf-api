@@ -73,11 +73,9 @@ function App() {
             path="/profiles/:id/edit"
             render={() => <ProfileEditForm />}
           />
-          <Route exact path="/events" render={() => <EventsPage />} />
           {/* <Route exact path="/events" component={EventsPage} /> */}
 
-          <Route exact path="/boop" render={() => <p>BOOP</p>} />
-
+          <Route exact path="/events" render={() => <EventsPage />} />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>

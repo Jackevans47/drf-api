@@ -125,10 +125,10 @@ const SignUpForm = () => {
         md={6}
         className={`my-auto d-none d-md-block p-2 ${styles.SignUpCol}`}
       >
-        {/* <Image
+        <Image
           className={`${appStyles.FillerImage}`}
-            src={"..assets/racing.png"}
-        /> */}
+          src={"..assets/racing.png"}
+        />
       </Col>
     </Row>
   );
