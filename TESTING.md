@@ -50,9 +50,9 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 | 1 | Click on the liked icon in navbar | All liked posts are displayed | Y   |             |
 | Add post |                        |                  |      |             |
 | 1 | Click on the Create button with empty fields | Message is displayed informing user fields may not be blank | Y   |             |
-| 1 | Click on the upload image | folder is opened allowing user to upload image | Y   |             |
-| 1 | Click on the Create button with filled fields | post has now been created | Y   |             |
-| 1 | Click on the cancel button | User is returned to the home page | Y   |             |
+| 2 | Click on the upload image | folder is opened allowing user to upload image | Y   |             |
+| 3 | Click on the Create button with filled fields | post has now been created | Y   |             |
+| 4 | Click on the cancel button | User is returned to the home page | Y   |             |
 
 
 
