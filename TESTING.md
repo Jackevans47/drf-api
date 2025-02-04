@@ -27,6 +27,7 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 | 3 | Click Events in nav bar | Redirect to Events page | Y   |             |
 | 4 | Click Liked in nav bar | Redirect to Liked page | Y   |             |
 | 5 | Click Sign out in nav bar | Signs out user | Y   |             |
+| 6 | Click on the add post icon in navbar | User is directed to add post page| Y   |             |
 | Home       |                        |                  |      |             |
 | 1 | Click on posts displayed | Redirects users to that post | Y   |             |
 | 2 | Scroll through posts on home page | See posts automatically loading as user scrolls | Y   |             |
@@ -36,6 +37,30 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 | 3 | Most followed profiles displayed right hand side of screen | profiles can be selected or followed | Y   |             |
 | 4 | Click on the follow button next to users in most followed | User now follows | Y   |             |
 | 5 | Click on the unfollow button next to users in most followed | User is now unfollowed | Y   |             |
+| Posts (signed out)|                        |                  |      |             |
+| 1 | Click on the post | User is directed to post | Y   |             |
+| 2 | Click on the like button | User is informed to sign in  | Y   |             |
+| 3 | Click on the comment button | User is shown the comments avaliable | Y   |             |
+| Posts (signed out)|                        |                  |      |             |
+| 1 | Click on the post | User is directed to post | Y   |             |
+| 2 | Click on the like button | User now liked the post  | Y   |             |
+| 3 | Click on the like button when post has already been liked| User now unliked the post  | Y   |             |
+| 4 | Click on the comment button | User is shown the comments avaliable and is able to leave a comment| Y   |             |
+| Liked |                        |                  |      |             |
+| 1 | Click on the liked icon in navbar | All liked posts are displayed | Y   |             |
+| Add post |                        |                  |      |             |
+| 1 | Click on the Create button with empty fields | Message is displayed informing user fields may not be blank | Y   |             |
+| 1 | Click on the upload image | folder is opened allowing user to upload image | Y   |             |
+| 1 | Click on the Create button with filled fields | post has now been created | Y   |             |
+| 1 | Click on the cancel button | User is returned to the home page | Y   |             |
+
+
+
+
+
+
+
+
 
 
 
