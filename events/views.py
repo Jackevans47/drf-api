@@ -28,3 +28,8 @@ class EventList(generics.ListCreateAPIView):
         "track",
         "county",
     ]
+
+
+class EventDetail(generics.RetrieveAPIView):
+    queryset = Event.objects.all()
+    serializer_class = EventSerializer

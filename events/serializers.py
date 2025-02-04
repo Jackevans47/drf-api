@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from posts.models import Event
+from events.models import Event
 
 
 class EventSerializer(serializers.ModelSerializer):

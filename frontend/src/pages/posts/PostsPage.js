@@ -20,7 +20,7 @@ import PopularProfiles from "../profiles/PopularProfiles";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 
 function PostsPage({ message, filter = "" }) {
-  const [posts, setPosts] = useState({ results: [] });
+  const [posts, setPosts, setEvents] = useState({ results: [] });
   const [hasLoaded, setHasLoaded] = useState(false);
   const { pathname } = useLocation();
 
@@ -29,11 +29,20 @@ function PostsPage({ message, filter = "" }) {
   const currentUser = useCurrentUser();
 
   useEffect(() => {
+    let isMounted = true;
     const fetchPosts = async () => {
       try {
         const { data } = await axiosReq.get(`/posts/?${filter}search=${query}`);
         setPosts(data);
         setHasLoaded(true);
+
+        if (isMounted) {
+          setEvents({
+            results: Array.isArray(data.results) ? data.results : [], // Ensure results is always an array
+            next: data.next,
+          });
+          setHasLoaded(true);
+        }
       } catch (err) {
         // console.log(err);
       }
@@ -47,7 +56,7 @@ function PostsPage({ message, filter = "" }) {
     return () => {
       clearTimeout(timer);
     };
-  }, [filter, query, pathname, currentUser]);
+  }, [filter, query, pathname, currentUser, setEvents, setPosts]);
 
   return (
     <Row className="h-100">
