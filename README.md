@@ -38,6 +38,32 @@ to use this application you need to create an account to access the main feature
 - As a use, i want to be able to see the events page so that i can look through any events that may interest me.
 
 
+---
 
+
+### Target audience
+
+F1 social is aimed toward fans of F1 who want to be able to share exclusive f1 material with other fans and attand events to meet up.
+
+### Strategy Trade-Off
+
+The strategy trade-off is to make the application as user friendly as possible.
+- simple interface;
+- easy to use;
+- intuitive navigation;
+- consistent design;
+- accessible to all users;
+
+---
+
+## Future Development
+
+1. Events creation:
+
+ - This will allow users to be able to create their own events that their followers can see.
+
+2. Liking and commenting on events:
+
+ - This will allow users to be able to interact with events more by allowing them to like and comment on events they like and share their feedback.
 
 
