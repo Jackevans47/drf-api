@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { axiosReq } from "../../api/axiosDefaults"; // Make sure axios is configured
+import { axiosReq } from "../../api/axiosDefaults";
 
 function EventDetailPage() {
   const { id } = useParams(); // Get the event ID from the URL

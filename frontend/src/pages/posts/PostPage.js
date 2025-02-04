@@ -77,7 +77,7 @@ function PostPage() {
           ) : currentUser ? (
             <span>No comments yet, be the first to comment!</span>
           ) : (
-            <span>No comments... yet</span>
+            <span>Sign in to be able to leave a comment</span>
           )}
         </Container>
       </Col>
