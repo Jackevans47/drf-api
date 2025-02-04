@@ -1,3 +1,50 @@
+# TESTING
+
+## Manual Testing
+
+Testing was done throughout site development, for each feature before it was merged into the master file.
+
+Usability was tested with the below user acceptance testing to ensure testing from different users, on different devices and browsers to ensure issues were caught and where possible fixed during development. However, it was noticed that in Chinese browsers (Breeno, QQ, etc) there was some difficulty with the testing, as the browser would not be able to display React components correctly.
+
+| Page    | User Actions           | Expected Results | Y/N | Comments    |
+|-------------|------------------------|------------------|------|-------------|
+| Sign Up     |                        |                  |      |             |
+| 1 | Click Sign up button in nav bar | Redirect to Sign up page | Y   |             |
+| 2 | Click login in "Already have an account?" section | Redirect to login page | Y   |             |
+| 3 | Click login in "Don't have an account?" section | Redirect to Sign up page | Y   |             |
+| 4 | Fill in all fields in the register page | Successfully register redirect to login | Y   |             |
+| Sign In      |                        |                  |      |             |
+| 1 | Click Sign In button in nav bar | Redirect to Sign In page | Y   |             |
+| 2 | Fill in all fields in the login page | Successfully login, redirect to home page | Y   |             |
+| 3 | Click Sign out in nav bar | Logs user out | Y   |             |
+| Navbar |                        |                  |      |             |
+| 1 | Click home in nav bar | Redirect to home page | Y   |             |
+| 2 | Click Sign in on nav bar | Redirect to Sign in page | Y   |             |
+| 3 | Click Sign out in nav bar | Redirect Sign out page | Y   |             |
+| Navbar for logged in users |                        |                  |      |             |
+| 1 | Click profile with user's name buttons | Redirects to profile page | Y   |             |
+| 2 | Click Feed in nav bar | Redirect to Feed page | Y   |             |
+| 3 | Click Events in nav bar | Redirect to Events page | Y   |             |
+| 4 | Click Liked in nav bar | Redirect to Liked page | Y   |             |
+| 5 | Click Sign out in nav bar | Signs out user | Y   |             |
+| Home       |                        |                  |      |             |
+| 1 | Click on posts displayed | Redirects users to that post | Y   |             |
+| 2 | Scroll through posts on home page | See posts automatically loading as user scrolls | Y   |             |
+| Profile |                        |                  |      |             |
+| 1 | Click on the edit button near avatar | Display options to edit or delete profile | Y   |             |
+| 2 | Scroll through screen displaying users posts | Shows user the posts they’ve created and posted | Y   |             |
+| 3 | Most followed profiles displayed right hand side of screen | profiles can be selected or followed | Y   |             |
+| 4 | Click on the follow button next to users in most followed | User now follows | Y   |             |
+| 5 | Click on the unfollow button next to users in most followed | User is now unfollowed | Y   |             |
+
+
+
+
+
+
+
+
+
 ## Validation
 
 ### HTML Validation:
