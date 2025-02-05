@@ -1,6 +1,22 @@
+/* Add this to your SignInUpForm.module.css file */
+.SignInBox {
+  border: 2px solid black; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px; /* Internal padding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  margin: 10px; /* Space around the box */
+  background-color: #fff; /* Optional: background color inside the box */
+}
+
+.AccountBox {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
 .Row {
   height: calc(100vh - 81px);
 }
+
 .Input {
   background: #ffffff;
   border: 1px solid #f0f1f9;
@@ -30,7 +46,7 @@
 }
 
 .Link span {
-  color: #ff9254;
+  color: red;
 }
 
 .Container {

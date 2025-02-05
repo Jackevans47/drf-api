@@ -55,7 +55,7 @@ function SignInForm() {
   return (
     <Row className={styles.Row}>
       <Col className="my-auto p-0 p-md-2" md={6}>
-        <Container className={`${appStyles.Content} p-4 `}>
+        <Container className={`${appStyles.Content} p-4 ${styles.SignInBox}`}>
           <h1 className={styles.Header}>sign in</h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="username">
@@ -104,7 +104,7 @@ function SignInForm() {
             ))}
           </Form>
         </Container>
-        <Container className={`mt-3 ${appStyles.Content}`}>
+        <Container className={`mt-3 ${appStyles.Content} ${styles.AccountBox}`}>
           <Link className={styles.Link} to="/signup">
             Don't have an account? <span>Sign up now!</span>
           </Link>
