@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Event from "./Event";
 import Asset from "../../components/Asset";
 import appStyles from "../../App.module.css";
-import styles from "../../styles/Post.module.css";
+import styles from "../../styles/Event.module.css"; // Import custom styles
 import { axiosReq } from "../../api/axiosDefaults";
 import NoResults from "../../assets/no-results.png";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -23,19 +23,19 @@ function EventsPage({ message, filter = "" }) {
   const currentUser = useCurrentUser();
 
   useEffect(() => {
-    let isMounted = true; // A flag to track whether the component is mounted
+    let isMounted = true; // Flag to track mounted state
 
     const fetchEvents = async () => {
       try {
         const { data } = await axiosReq.get(
           `/events/?${filter}search=${query}`
         );
-        console.log(data); // Log to check the structure of the response
+        console.log(data); // Log to check the response structure
 
-        // Only update the state if the component is still mounted
+        // Update state only if component is still mounted
         if (isMounted) {
           setEvents({
-            results: Array.isArray(data.results) ? data.results : [], // Ensure results is always an array
+            results: Array.isArray(data.results) ? data.results : [],
             next: data.next,
           });
           setHasLoaded(true);
@@ -50,19 +50,19 @@ function EventsPage({ message, filter = "" }) {
       fetchEvents();
     }, 1000);
 
-    // Cleanup function to set isMounted to false when the component unmounts
+    // Cleanup function to set isMounted to false when component unmounts
     return () => {
       clearTimeout(timer);
       isMounted = false;
     };
-  }, [query, pathname, currentUser, filter]); // Add filter dependency if necessary
+  }, [query, pathname, currentUser, filter]);
 
   return (
     <Row className="h-100">
       <Col className="py-2 p-0 p-lg-2" lg={8}>
-        <i className={`fas fa-search ${styles.SearchIcon}`} />
+        <i className={`fas fa-search ${styles.searchIcon}`} />
         <Form
-          className={styles.SearchBar}
+          className={styles.searchBar}
           onSubmit={(event) => event.preventDefault()}
         >
           <Form.Control
@@ -76,19 +76,25 @@ function EventsPage({ message, filter = "" }) {
 
         {hasLoaded ? (
           <>
-            {Array.isArray(events.results) && events.results.length ? ( // Ensure results is an array and has items
+            {Array.isArray(events.results) && events.results.length ? (
               <InfiniteScroll
-                children={events.results.map((event) => (
-                  <Event key={event.id} {...event} setEvents={setEvents} />
-                ))}
+                children={
+                  <div className={styles.searchResultsContainer}>
+                    {events.results.map((event) => (
+                      <Event key={event.id} {...event} />
+                    ))}
+                  </div>
+                }
                 dataLength={events.results.length}
                 loader={<Asset spinner />}
                 hasMore={!!events.next}
-                next={() => fetchMoreData(events, setEvents)} // Handling infinite scroll
+                next={() => fetchMoreData(events, setEvents)} // Infinite scroll
               />
             ) : (
               <Container className={appStyles.Content}>
-                <Asset src={NoResults} message={message} />
+                <div className={styles.noResultsContainer}>
+                  <Asset src={NoResults} message={message} />
+                </div>
               </Container>
             )}
           </>
@@ -97,10 +103,6 @@ function EventsPage({ message, filter = "" }) {
             <Asset spinner />
           </Container>
         )}
-      </Col>
-      {/* You can add a second column for additional content */}
-      <Col md={4} className="d-none d-lg-block p-0 p-lg-2">
-        {/* Add any other component here, like PopularProfiles */}
       </Col>
     </Row>
   );
