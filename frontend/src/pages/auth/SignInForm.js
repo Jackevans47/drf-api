@@ -17,6 +17,7 @@ import appStyles from "../../App.module.css";
 import { useSetCurrentUser } from "../../contexts/CurrentUserContext";
 import { useRedirect } from "../../hooks/useRedirect";
 import { setTokenTimestamp } from "../../utils/utils";
+import RacingImage from "../../assets/racing.png";
 
 function SignInForm() {
   const setCurrentUser = useSetCurrentUser();
@@ -113,10 +114,7 @@ function SignInForm() {
         md={6}
         className={`my-auto d-none d-md-block p-2 ${styles.SignInCol}`}
       >
-        <Image
-          className={`${appStyles.FillerImage}`}
-          src={"../assets/racing.png"}
-        />
+        <Image className={`${appStyles.FillerImage}`} src={RacingImage} />
       </Col>
     </Row>
   );
