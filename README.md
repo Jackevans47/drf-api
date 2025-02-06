@@ -218,7 +218,31 @@ On this page, users can upload their selected image and add custom title and con
 
 
 ---
+## Design
 
+
+### Color palette
+
+A mixture of the following colours were used through the application.
+- #242a3d
+
+  ![242a3d](https://github.com/user-attachments/assets/fa47fa24-6456-41a2-8f8b-1c1dc638b031)
+
+- #ff0000
+
+  ![ff0000](https://github.com/user-attachments/assets/4d26076e-47a9-4d34-86c3-1887b4a42e76)
+
+- #dadadf
+
+  ![dadadf](https://github.com/user-attachments/assets/c55083c0-50c5-4145-b1a5-20b2ec55f65c)
+
+- #f85032
+
+  ![f85032](https://github.com/user-attachments/assets/12bbb8c6-c434-4ac0-adf3-0b1c013ac3a4)
+
+
+
+---
 ## Agile Methodology
 
 ### GitHub Project Management
