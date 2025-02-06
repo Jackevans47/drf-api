@@ -15,6 +15,7 @@ import ProfilePage from "./pages/profiles/ProfilePage";
 import UsernameForm from "./pages/profiles/UsernameForm";
 import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
+import Redirector from "./pages/auth/Redirector";
 
 function App() {
   const currentUser = useCurrentUser();
@@ -36,46 +37,92 @@ function App() {
             exact
             path="/feed"
             render={() => (
-              <PostsPage
-                message="No results found. Adjust the search keyword or follow a user."
-                filter={`owner__followed__owner__profile=${profile_id}&`}
-              />
+              <Redirector>
+                <PostsPage
+                  message="No results found. Adjust the search keyword or follow a user."
+                  filter={`owner__followed__owner__profile=${profile_id}&`}
+                />
+              </Redirector>
             )}
           />
           <Route
             exact
             path="/liked"
             render={() => (
-              <PostsPage
-                message="No results found. Adjust the search keyword or like a post."
-                filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
-              />
+              <Redirector>
+                <PostsPage
+                  message="No results found. Adjust the search keyword or like a post."
+                  filter={`likes__owner__profile=${profile_id}&ordering=-likes__created_at&`}
+                />
+              </Redirector>
             )}
           />
           <Route exact path="/signin" render={() => <SignInForm />} />
           <Route exact path="/signup" render={() => <SignUpForm />} />
-          <Route exact path="/posts/create" render={() => <PostCreateForm />} />
+          <Route
+            exact
+            path="/posts/create"
+            render={() => (
+              <Redirector>
+                <PostCreateForm />
+              </Redirector>
+            )}
+          />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
-          <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
-          <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
+          <Route
+            exact
+            path="/posts/:id/edit"
+            render={() => (
+              <Redirector>
+                <PostEditForm />
+              </Redirector>
+            )}
+          />
+          <Route
+            exact
+            path="/profiles/:id"
+            render={() => (
+              <Redirector>
+                <ProfilePage />
+              </Redirector>
+            )}
+          />
           <Route
             exact
             path="/profiles/:id/edit/username"
-            render={() => <UsernameForm />}
+            render={() => (
+              <Redirector>
+                <UsernameForm />
+              </Redirector>
+            )}
           />
           <Route
             exact
             path="/profiles/:id/edit/password"
-            render={() => <UserPasswordForm />}
+            render={() => (
+              <Redirector>
+                <UserPasswordForm />
+              </Redirector>
+            )}
           />
           <Route
             exact
             path="/profiles/:id/edit"
-            render={() => <ProfileEditForm />}
+            render={() => (
+              <Redirector>
+                <ProfileEditForm />
+              </Redirector>
+            )}
           />
-          {/* <Route exact path="/events" component={EventsPage} /> */}
-
-          <Route exact path="/events" render={() => <EventsPage />} />
+          <Route
+            exact
+            path="/events"
+            render={() => (
+              <Redirector>
+                <EventsPage />
+              </Redirector>
+            )}
+          />
           <Route render={() => <p>Page not found!</p>} />
         </Switch>
       </Container>

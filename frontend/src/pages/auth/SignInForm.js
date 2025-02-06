@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import Form from "react-bootstrap/Form";
@@ -15,13 +15,12 @@ import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
 import { useSetCurrentUser } from "../../contexts/CurrentUserContext";
-import { useRedirect } from "../../hooks/useRedirect";
 import { setTokenTimestamp } from "../../utils/utils";
 import RacingImage from "../../assets/racing.png";
 
 function SignInForm() {
   const setCurrentUser = useSetCurrentUser();
-  useRedirect("loggedIn");
+  const history = useHistory();
 
   const [signInData, setSignInData] = useState({
     username: "",
@@ -31,7 +30,19 @@ function SignInForm() {
 
   const [errors, setErrors] = useState({});
 
-  const history = useHistory();
+  useEffect(() => {
+    const handleRedirect = async () => {
+      try {
+        await axios.post("/dj-rest-auth/token/refresh/");
+        history.push("/");
+      } catch (err) {
+        // pass
+      }
+    };
+
+    handleRedirect();
+  }, [history]);
+
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -39,7 +50,7 @@ function SignInForm() {
       const { data } = await axios.post("/dj-rest-auth/login/", signInData);
       setCurrentUser(data.user);
       setTokenTimestamp(data);
-      history.goBack();
+      history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
     }
