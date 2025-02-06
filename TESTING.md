@@ -70,7 +70,7 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 
 
 
-## Validation
+## Code Validation
 
 ### HTML Validation:
 
