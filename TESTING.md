@@ -102,7 +102,7 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 - Full Python Validation Report
 - ![ pep8 auth_password_validators](https://github.com/user-attachments/assets/bc2012c3-f01c-4012-8dd4-93b2ec903f8e)
 
-- - 4 errors were found when the code was passed through Valentin Bryukhanov's [online validation tool](http://pep8online.com/). According to the reports, the code is [Pep 8-compliant](https://legacy.python.org/dev/peps/pep-0008/). This checking was done manually by copying python code and pasting it into the validator.
+According to the reports, the code is [Pep 8-compliant](https://legacy.python.org/dev/peps/pep-0008/). This checking was done manually by copying python code and pasting it into the pep8ci validator.
 
 - errors only found in settings.py
 - E501 line too long (91 > 79 characters) - `AUTH_PASSWORD_VALIDATORS` (x4)
