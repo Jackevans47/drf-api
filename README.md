@@ -114,3 +114,31 @@ The strategy trade-off is to make the application as user friendly as possible.
 
 ---
 ​
+## Features
+​
+### Navbar:
+​
+There are 2 types of the navbar:
+​
+1. Navbar for Signed out users:
+​
+
+![navbar signed out](https://github.com/user-attachments/assets/0873be5f-2c48-457f-9b8e-a1d87951a23e)
+
+​
+  - "Home" button: takes the user to the home page.
+  - "Sign In" button: takes the user to the Sign in page.
+  - "Sign up" button: takes the user to the Sign up form page.
+
+2. Navbar for Signed in users:
+​
+
+![navbar signed in](https://github.com/user-attachments/assets/0a6ef3e8-3e97-4e51-862e-040740296dbb)
+
+​
+  - "Home" button: takes the user to the home page.
+  - "Feed" button: takes the user to the feed page.
+  - "Events" button: takes the user to the events page.
+  - "Sign out" button: will sign the user out.
+  - "Profile" button: takes the user to theit profile page.
+  - "Add post" button: takes the user to the add post page.
