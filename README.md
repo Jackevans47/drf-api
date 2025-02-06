@@ -207,3 +207,11 @@ This is the profile page. It displays the users profile infomation.
 
  ![profile edit](https://github.com/user-attachments/assets/778ea8dc-0bc8-4fc1-8b8b-1b449f37b0e8)
 
+
+### Profile page
+
+This is the add post page. From here, a user can add their post.
+
+![add post page](https://github.com/user-attachments/assets/e036d996-e5b3-49aa-a5e0-35e4a54119d4)
+
+On this page, users can upload their selected image and add custom title and content before posting.
