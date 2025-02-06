@@ -67,3 +67,50 @@ The strategy trade-off is to make the application as user friendly as possible.
  - This will allow users to be able to interact with events more by allowing them to like and comment on events they like and share their feedback.
 
 
+
+## Technologies used
+
+- ### Languages:
+    
+    + [Python 3.9.16](https://www.python.org/downloads/release/python-385/): the primary language used to develop the server-side of the website.
+
+    + [JS](https://www.javascript.com/): the primary language used to develop interactive components of the website.
+
+    + [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): the markup language used to create the website.
+
+    + [CSS](https://developer.mozilla.org/en-US/docs/Web/css): the styling language used to style the website.
+
+ - ### Frameworks and libraries:
+
+  + [Django](https://www.djangoproject.com/): python framework used to create all the logic.
+
+  + [Django-rest-framework](https://www.django-rest-framework.org/): python framework used to create the API.
+
+  + [React](https://reactjs.org/): javascript framework used to create the front-end of the website.
+
+  + [PrimeReact](https://www.primefaces.org/primereact/): a set of components used to create the front-end of the website.
+
+  + [Primeflex](https://www.primefaces.org/primeflex/): css framework used to style the front-end of the website.
+
+- ### Databases:
+
+  + [SQLite](https://www.sqlite.org/): was used as a development database.
+  + [PostgreSQL](https://www.postgresql.org/): the database used to store all the data.
+
+- ### Other tools:
+
+    + [Git](https://git-scm.com/): the version control system used to manage the code.
+    + [Pip3](https://pypi.org/project/pip/): the package manager used to install the dependencies.
+    + [Psycopg2](https://www.python.org/dev/peps/pep-0249/): the database driver used to connect to the database.
+    + [Heroku](https://heroku.com/): the hosting service used to host the website.
+    + [GitHub](https://github.com/): used to host the website's source code.
+    + [VSCode](https://code.visualstudio.com/): the IDE used to develop the website.
+    + [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/): was used to debug the website.
+    + [React DevTools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi): was used to debug the website.
+    + [W3C Validator](https://validator.w3.org/): was used to validate HTML5 code for the website.
+    + [W3C CSS validator](https://jigsaw.w3.org/css-validator/): was used to validate CSS code for the website.
+    + [JShint](https://jshint.com/): was used to validate JS code for the website.
+    + [PEP8](https://pep8.org/): was used to validate Python code for the website.
+
+---
+​
