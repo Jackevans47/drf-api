@@ -255,3 +255,13 @@ I used set the projects according to the application's functionality and set up 
 ![user stories](https://github.com/user-attachments/assets/966f4c3b-ac7e-45d7-9735-a3cd04fbde9e)
 
 
+## Information Architecture
+
+### Database
+
+* During the earliest stages of the project, the database was created using SQLite.
+* The database was then migrated to PostgreSQL.
+
+### Entity-Relationship Diagram
+
+![ERD](https://github.com/user-attachments/assets/21c0e25b-ceed-4b2d-96b9-6887a76305f6)
