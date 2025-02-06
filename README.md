@@ -215,3 +215,19 @@ This is the add post page. From here, a user can add their post.
 ![add post page](https://github.com/user-attachments/assets/e036d996-e5b3-49aa-a5e0-35e4a54119d4)
 
 On this page, users can upload their selected image and add custom title and content before posting.
+
+
+---
+
+## Agile Methodology
+
+### GitHub Project Management
+
+
+GitHub Project Management was used as the main method to manage the project. It was used to control the project's workflow and to track the project's progress. The project was created using [GitHub](www.github.com).
+
+I used set the projects according to the application's functionality and set up issues for each feature to keep control of the development.
+
+![user stories](https://github.com/user-attachments/assets/966f4c3b-ac7e-45d7-9735-a3cd04fbde9e)
+
+
