@@ -177,3 +177,17 @@ This is the feed page. It only displays posts from profiles that the user is fol
 ![feed page](https://github.com/user-attachments/assets/5a58e547-a965-4f80-b6ce-cd3e821bc941)
 
   - The feed page contains the same features as the home page.
+
+
+### Events page
+
+TBC!
+
+### Liked page
+
+This is the Liked page. It only displays posts that the user has liked.
+
+![liked page](https://github.com/user-attachments/assets/c6b8485a-0b9c-4664-9d88-2a39a3d2dac5)
+
+  - The liked page contains the same features as the home page.
+
