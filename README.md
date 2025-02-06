@@ -265,3 +265,64 @@ I used set the projects according to the application's functionality and set up 
 ### Entity-Relationship Diagram
 
 ![ERD](https://github.com/user-attachments/assets/21c0e25b-ceed-4b2d-96b9-6887a76305f6)
+
+---
+
+### Data Modeling
+
+#### Comments Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| owner      | owner      | foreignKey  |           |
+| post         | post         | foreignKey     |  |
+| created_at    | created_at    | DateTimeField |           |
+| updated_at    | updated_at    | DateTimeField |           |
+| content      | content      | TextField  |           |
+
+#### Event Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| track      | track      | CharField  | max_length=100 |
+| country         | country         | CharField     | max_length=32, choices=country |
+| created_at    | created_at    | DateTimeField |           |
+|  race_type     |  race_type     | CharField | choices=race_types, max_length=30 |
+| content      | content      | TextField  |           |
+| ticket_link      | ticket_link      | URLField  |           |
+
+#### Follower Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| owner      | owner      | foreignKey  | User, related_name="following", on_delete=models.CASCADE |
+| followed         | followed         | foreignKey     | User, related_name="followed", on_delete=models.CASCADE |
+| created_at    | created_at    | DateTimeField |           |
+
+#### Like Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| owner      | owner      | foreignKey  | User, on_delete=models.CASCADE |
+| post         | post         | foreignKey     | Post, related_name="likes", on_delete=models.CASCADE |
+| created_at    | created_at    | DateTimeField |           |
+
+#### Post Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| owner      | owner      | foreignKey  | User, on_delete=models.CASCADE |
+| created_at    | created_at    | DateTimeField |           |
+| updated_at    | updated_at    | CharField |           |
+|  title     |  title     | CharField | choices=race_types, max_length=30 |
+| content      | content      | TextField  |           |
+| image     | image      | ImageField  | upload_to="images/", default="../default_profile_xhasyd", blank=True |
+| image_filter     | image_filter      | CharField  | max_length=32, choices=image_filter_choices, default="normal" |
+
+#### Profiles Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| owner      | owner      | OneToOneField  | User, on_delete=models.CASCADE |
+| created_at    | created_at    | DateTimeField |           |
+| updated_at    | updated_at    | CharField |           |
+|  name     |  name     | CharField | cmax_length=255, blank=True |
+| content      | content      | TextField  |           |
+| image     | image      | ImageField  | upload_to="images/", default="../default_profile_qdjgyp" |
+
+---
+
