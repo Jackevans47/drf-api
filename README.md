@@ -326,3 +326,14 @@ I used set the projects according to the application's functionality and set up 
 
 ---
 
+## Testing
+Please refer to the [TESTING.md](TESTING.md) file for all test-related documentation.
+
+---
+
+## Deployment
+
+
+Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment and payment-related documentation.
+
+---
