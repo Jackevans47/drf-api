@@ -191,3 +191,19 @@ This is the Liked page. It only displays posts that the user has liked.
 
   - The liked page contains the same features as the home page.
 
+
+### Profile page
+
+This is the profile page. It displays the users profile infomation.
+
+![profile page](https://github.com/user-attachments/assets/f82a41fa-3489-489a-8485-ebe69862958d)
+
+
+ On this page the user can see a list of their own posts, how many posts they have as well a count of how many followers they have and how many other users they are following.
+
+ <img width="480" alt="profile count" src="https://github.com/user-attachments/assets/7d7b4fcb-5bcf-4dc8-9e5e-cfd21b5985c2" />
+
+ From this page, users can click the 3 dots to edit their profile by changing profile picture and editing bio. From this feature users can also change their username and  password too.
+
+ ![profile edit](https://github.com/user-attachments/assets/778ea8dc-0bc8-4fc1-8b8b-1b449f37b0e8)
+
