@@ -168,3 +168,12 @@ It includes the following features:
    - The home page contains a search bar giving the users the option to filter through posts to one they want to see.
   
      ![home searchbar](https://github.com/user-attachments/assets/d68d0318-548a-4acf-ba18-ad59c3f82a7f)
+
+
+### Feed page
+
+This is the feed page. It only displays posts from profiles that the user is following.
+
+![feed page](https://github.com/user-attachments/assets/5a58e547-a965-4f80-b6ce-cd3e821bc941)
+
+  - The feed page contains the same features as the home page.
