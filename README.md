@@ -337,3 +337,29 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment and payment-related documentation.
 
 ---
+
+## Credits
+
+
+- [GitHub](https://github.com/) for giving the idea of the project's design.
+- [Django](https://www.djangoproject.com/) for the framework.
+- [Django Rest Framework](https://www.django-rest-framework.org/) for the API functionality.
+- [Postgresql](https://www.postgresql.org/): for providing a free database.
+- [Favicon.io](https://favicon.io/): for providing a free platform to generate favicons.
+- [Heroku](https://www.heroku.com/): for the free hosting of the website.
+- [Heroku](https://dashboard.heroku.com): for the free hosting of the website.
+- [PostgreSQL](https://dbs.ci-dbs.net/): for the database used to store all the data provided by code institute.
+- [Font awesome](https://fontawesome.com/): for the free access to icons.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
+
+## Acknowledgements
+
+[Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+
+I am grateful to my mentor Iuliia Konovalova for her guidance and helpful feedback!
+
+
+- I used code institute moments and drf walkthrough for inspiration and to help sturucture my code.
+- 
+---
+
