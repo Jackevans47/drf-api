@@ -142,3 +142,29 @@ There are 2 types of the navbar:
   - "Sign out" button: will sign the user out.
   - "Profile" button: takes the user to theit profile page.
   - "Add post" button: takes the user to the add post page.
+
+
+### Home page
+
+![homepage](https://github.com/user-attachments/assets/599440d5-857a-4cdb-90d5-1453817fb12e)
+
+This is the home page of the website. It displays posts from users and has a search bar allowing users to search through posts.
+
+It includes the following features:
+
+1. Most followed profiles:
+
+   - The most follwed profiles section is displayed on the home page next to posts, this shows users the most followed profiles avaliable. Users also can follow or unfollow users easily on this feature.
+  
+    ![most followed profiles](https://github.com/user-attachments/assets/c7fdad07-0518-43cc-b0ed-4bbab5b2a11d)
+
+
+2. Posts
+
+  - Posts are displayed on the home page and can be scrolled through automatically refreshing the page to give users a good user experience eliminating the option to have to click next page at the end of posts.
+
+3. Searchbar
+
+   - The home page contains a search bar giving the users the option to filter through posts to one they want to see.
+  
+     ![home searchbar](https://github.com/user-attachments/assets/d68d0318-548a-4acf-ba18-ad59c3f82a7f)
