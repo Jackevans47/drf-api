@@ -151,3 +151,23 @@ Testing was conducted on the following browsers;
 ![firefox-home](https://github.com/user-attachments/assets/65fff2c4-a745-4cc8-85f4-b02289274f09)
 ![firefox-events](https://github.com/user-attachments/assets/4d570061-5401-4c4f-97e6-2e6aacc63e64)
 ![firefox-profile](https://github.com/user-attachments/assets/4c48efe4-bfcc-4663-9e6d-ebcbfd297b36)
+
+---
+
+## Responsiveness
+
+The responsiveness was checked manually by using devtools (Chrome) throughout the whole development.
+
+- Mobile
+
+![mobile](https://github.com/user-attachments/assets/4ad0cdf9-47a6-4ec4-b9f8-ad92db08e087)
+
+- tablet
+  
+![tablet](https://github.com/user-attachments/assets/e3740450-3ea1-488e-bcb4-3506aa9a4c55)
+
+- desktop
+  
+![desktop](https://github.com/user-attachments/assets/eef94401-be1c-4949-b5d9-980f20ed62f0)
+
+  
