@@ -64,10 +64,10 @@
 
 
 
- 13. Go to backend/ directory.
+ 13. Go to drf_api/ directory.
 
 ```
-cd backend
+cd drf_api
 ```
 
   
@@ -90,10 +90,19 @@ cd backend
 
     1. Go to the [Heroku dashboard](https://dashboard.heroku.com/apps).
     2. Click on the "New" button.
-    3. Click on the "Create new app" button.
-    4. Choose a name for your app.
-    5. Choose a region.
-    6. Click on the "Create app" button.
+    3. ![Screenshot 2025-02-07 at 11 07 06](https://github.com/user-attachments/assets/b13e8c1e-d4a2-4d0a-a875-9475500a8abe)
+     
+    4. Click on the "Create new app" button.
+    ![Screenshot 2025-02-07 at 11 07 40](https://github.com/user-attachments/assets/8671327f-f903-4ca9-a97c-0a72baeeaf6b)
+
+    5. Choose a name for your app.
+     ![Screenshot 2025-02-07 at 11 08 02](https://github.com/user-attachments/assets/ee5de371-8a85-4053-b19b-a55daea9cb1e)
+
+    6. Choose a region.
+    ![Screenshot 2025-02-07 at 11 08 17](https://github.com/user-attachments/assets/b5523a21-fb3e-4dbc-903c-881c1acd8d44)
+
+    7. Click on the "Create app" button.
+    ![Screenshot 2025-02-07 at 11 08 26](https://github.com/user-attachments/assets/696566c5-dde1-462c-b792-ace69b8445f9)
 
 
 3. In your app, go to the "Settings" tab, press "Reveal Config Vars", and add the following config vars if they are not already set:
