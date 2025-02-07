@@ -134,6 +134,39 @@ According to the reports, the code is [Pep 8-compliant](https://legacy.python.or
 
 ---
 
+## Lighthouse Report
+
+LightHouse is a web performance testing tool that can be used to evaluate the performance of a website. 
+
+- Lighthouse Home page
+- ![lighthouse-home-page](https://github.com/user-attachments/assets/ac540c3e-6660-4983-865f-4806a15dee85)
+
+- Lighthouse Home page sign in
+- ![lighthouse-home-page-signed-in](https://github.com/user-attachments/assets/371bf302-426d-41c2-990b-cb10f2971d40)
+
+
+- Lighthouse add post
+- ![lighthouse-add-post](https://github.com/user-attachments/assets/dd66061f-4d5d-4dfd-b6a4-ee842d2f161a)
+
+- Lighthouse events
+- ![lighthouse-events](https://github.com/user-attachments/assets/f2db40d6-7493-40e5-8859-e9877e2b2888)
+
+- Lighthouse feed
+- ![lighthouse-feed](https://github.com/user-attachments/assets/1e69afff-bcd5-4905-a2a1-3ddaf418f0ea)
+
+- lighthouse liked
+- ![lighthouse-liked](https://github.com/user-attachments/assets/f748e563-d867-4393-9a74-a9e11525d21a)
+
+- Lighthouse profile
+- ![lighthouse-profile](https://github.com/user-attachments/assets/6361e972-50c1-4025-bf09-a7a9ac992c85)
+
+- Lighthouse signin/up
+- ![lighthouse-signin:up](https://github.com/user-attachments/assets/c163dc00-20fe-471b-88af-17985804334d)
+
+
+
+
+---
 
 ## Compatibility
 
