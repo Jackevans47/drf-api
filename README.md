@@ -253,6 +253,64 @@ A mixture of the following colours were used through the application.
   ![f85032](https://github.com/user-attachments/assets/12bbb8c6-c434-4ac0-adf3-0b1c013ac3a4)
 
 
+### Wireframes
+
+- Desktop
+
+ - Logged out
+   
+![logged-out-home](https://github.com/user-attachments/assets/c23c2d61-b7c3-4bbc-97e0-0c8f80a21505)
+
+ - Signin/out
+   
+![signin:out-page](https://github.com/user-attachments/assets/9eab866a-da75-45e6-8b80-7190401e05a5)
+
+ - Home/feed/liked
+   
+![home:feed:liked](https://github.com/user-attachments/assets/dc6627e9-f323-4aea-8a87-a6d03b55ef8f)
+
+ - Events
+   
+![events](https://github.com/user-attachments/assets/e0012b4d-6568-4420-bb5f-e91d7ac57750)
+
+ - Profile
+
+![profile](https://github.com/user-attachments/assets/74add85e-35a8-448c-b4da-f2b793283ecf)
+
+ - Add post/edit
+
+![add-post:edit](https://github.com/user-attachments/assets/c8c7f52a-bb90-47d1-ac66-ebd9b340d8b7)
+
+
+
+- Mobile
+
+ - Logged out
+   
+![mobile-logged-out-home](https://github.com/user-attachments/assets/b0dfcf1b-b41f-42d0-8eee-9f3873595053)
+
+ - Signin/out
+   
+![mobile-signin:out](https://github.com/user-attachments/assets/947a3aa1-b245-4965-bf41-1d5a9f8b093c)
+
+ - Home/feed/liked
+   
+![mobile-home-feed-liked](https://github.com/user-attachments/assets/8bb91e5c-d9a0-45cd-95ac-c9b97bfa333b)
+
+ - Events
+   
+![mobile-events](https://github.com/user-attachments/assets/6657527d-b6ee-4a4a-bbb8-9b2d84de14e0)
+
+ - Profile
+
+![mobile-profile](https://github.com/user-attachments/assets/59b5aaef-14fc-4028-9dad-32b10a0969a9)
+
+ - Add post/edit
+
+
+![mobile-add:edit-post](https://github.com/user-attachments/assets/c71b93f4-66cf-41d2-b5e3-1724da39df97)
+
+
 
 ---
 ## Agile Methodology
