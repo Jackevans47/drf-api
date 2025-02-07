@@ -56,3 +56,13 @@ i:hover {
   transition: color ease-in-out 0.3s;
   color: red;
 }
+
+.signin {
+  color: red;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  color: #f85032;
+}

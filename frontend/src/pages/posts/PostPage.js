@@ -74,7 +74,11 @@ function PostPage() {
           <span>No comments yet, be the first to comment!</span>
         ) : (
           <span>
-            <a href="/signin"> Sign in </a> to be able to leave a comment
+            <a href="/signin" className={appStyles.signin}>
+              {" "}
+              Sign in{" "}
+            </a>{" "}
+            to be able to leave a comment
           </span>
         )}
       </Container>
