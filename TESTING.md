@@ -17,6 +17,8 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 | 1 | Click Sign In button in nav bar | Redirect to Sign In page | Y   |             |
 | 2 | Fill in all fields in the login page | Successfully login, redirect to home page | Y   |             |
 | 3 | Click Sign out in nav bar | Logs user out | Y   |             |
+| Signed out users  |                        |                  |      |             |
+| 1 | User searches for a url page of a signed in user | user is redirected to the sign in page | Y   |             |
 | Navbar |                        |                  |      |             |
 | 1 | Click home in nav bar | Redirect to home page | Y   |             |
 | 2 | Click Sign in on nav bar | Redirect to Sign in page | Y   |             |
