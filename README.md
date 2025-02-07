@@ -1,6 +1,6 @@
 # F1 Social
 
-Go to F1 Social [https://f1-social-api-910f5cff82da.herokuapp.com/)
+Go to F1 Social https://f1-social-api-910f5cff82da.herokuapp.com/
 
 
 ## About
@@ -181,7 +181,11 @@ This is the feed page. It only displays posts from profiles that the user is fol
 
 ### Events page
 
-TBC!
+This is the events page. It shows the user upcomming events.
+
+![events-page](https://github.com/user-attachments/assets/505083e2-298a-4844-8e2d-915287281036)
+
+ - The events page contains a list of events as well as a search bar to allow users to search through events.
 
 ### Liked page
 
