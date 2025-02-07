@@ -170,4 +170,18 @@ The responsiveness was checked manually by using devtools (Chrome) throughout th
   
 ![desktop](https://github.com/user-attachments/assets/eef94401-be1c-4949-b5d9-980f20ed62f0)
 
-  
+ ---
+
+ ## BUGS
+
+ ### Known bugs
+
+
+- There is a possibility of errors logged in browser's console on failed requests to the server. This is because I am using a custom build JWT authentication system, which makes requests to the server to see if the user is logged in or not on every page load. This is not quite a bug, because, if the access token cookie is expired, browser receives a 401 error, but the app makes the attempt to refresh the token at the same time, and if it is successful, the user is still logged in. So, browser just automatically logs the request error to the console, because it does not know that the app is trying to refresh the token. This is not a bug, because the app is still working as intended.
+
+
+### Fixed bugs
+
+ - The signed out user was able to gain access to pages only accessible for signed in users. This bug was fixed  by creating redirector.js and applying the code inside to direct the signed out user to sign in page to allow them to sign in and access the content.
+
+
