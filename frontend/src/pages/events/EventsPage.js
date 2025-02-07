@@ -30,7 +30,6 @@ function EventsPage({ message, filter = "" }) {
         const { data } = await axiosReq.get(
           `/events/?${filter}search=${query}`
         );
-        console.log(data); // Log to check the response structure
 
         // Update state only if component is still mounted
         if (isMounted) {

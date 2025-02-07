@@ -43,9 +43,7 @@ function PostsPage({ message, filter = "" }) {
           });
           setHasLoaded(true);
         }
-      } catch (err) {
-        // console.log(err);
-      }
+      } catch (err) {}
     };
 
     setHasLoaded(false);
