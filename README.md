@@ -356,10 +356,11 @@ Please refer to the [DEPLOYMENT.md](DEPLOYMENT.md) file for all deployment and p
 - [Postgresql](https://www.postgresql.org/): for providing a free database.
 - [Favicon.io](https://favicon.io/): for providing a free platform to generate favicons.
 - [Heroku](https://www.heroku.com/): for the free hosting of the website.
-- [Heroku](https://dashboard.heroku.com): for the free hosting of the website.
 - [PostgreSQL](https://dbs.ci-dbs.net/): for the database used to store all the data provided by code institute.
 - [Font awesome](https://fontawesome.com/): for the free access to icons.
 - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en): for providing a free platform to test website responsiveness
+- [Code Institute](https://codeinstitute.com/): for providing the walkthrough projects drf and moments that was used for inspiration and to help structure for my project. Code was used from these walkthroughs to help impliment my own project.
+
 
 ## Acknowledgements
 
