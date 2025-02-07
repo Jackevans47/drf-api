@@ -63,51 +63,29 @@ Usability was tested with the below user acceptance testing to ensure testing fr
  User Story Goals | Requirement met | Image |
 | ------------------------- | --------------- | ----- |
 | As a user I can view a navbar from every page so that I can navigate easily between pages | Y   | ![navbar-signed-in](https://github.com/user-attachments/assets/35c1eb12-6be0-4774-a845-d2bd1135c782) |
-|  As a user I can create a new account so that I can access all the features for signed up users | Y   | ![sign-up page](https://github.com/user-attachments/assets/8b50fb28-eb9e-49d4-ae34-e897e5bd2237)
- |
-| As a user I can sign in to the app so that I can access functionality for logged in users | Y   | ![sign-in-page](https://github.com/user-attachments/assets/547d463c-8467-4417-8ce8-acdbcd12a674)
- |
-| As a user I can tell if I am logged in or not. | Y   |![navbar-signed-in](https://github.com/user-attachments/assets/4fe6616f-6a78-4a68-9fd0-b306613c92e7)
-|
-| As a logged out user I can see signing in/up options allowing me to sign in/out | Y   |![navbar-signed-out](https://github.com/user-attachments/assets/609701e3-7bf0-4788-a9eb-aed1b49fb540)
-|
-| As a logged in user I can create posts so that I can share my posts | Y   |![add-post-page](https://github.com/user-attachments/assets/ed25eefc-5191-4cea-bf53-0af6f7ff57c9)
-|
-| As a logged in user I can like a post so that show interest in the post | Y   |![like:comment](https://github.com/user-attachments/assets/58ac7162-f870-4c8c-b4ad-fd0856101658)
-|
-| As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content | Y   |![homepage](https://github.com/user-attachments/assets/b1b0d1e5-2051-4fab-b5be-82870dfaf81c)
-|
-| As a user, I can search for posts with keywords, so that I can find the posts, profiles and events that are of interest| Y   |<img width="440" alt="post-searchbar" src="https://github.com/user-attachments/assets/52aead40-a577-486f-816c-e09163f96b98" />
-|
-| As a logged in user I can view the posts I liked so that I can find the posts I enjoy the most | Y   |![liked-page](https://github.com/user-attachments/assets/66464433-8fbd-44a4-926a-ce41cc7d211c)
-|
+|  As a user I can create a new account so that I can access all the features for signed up users | Y   | ![sign-up page](https://github.com/user-attachments/assets/8b50fb28-eb9e-49d4-ae34-e897e5bd2237)|
+| As a user I can sign in to the app so that I can access functionality for logged in users | Y   | ![sign-in-page](https://github.com/user-attachments/assets/547d463c-8467-4417-8ce8-acdbcd12a674)|
+| As a user I can tell if I am logged in or not. | Y   |![navbar-signed-in](https://github.com/user-attachments/assets/4fe6616f-6a78-4a68-9fd0-b306613c92e7)|
+| As a logged out user I can see signing in/up options allowing me to sign in/out | Y   |![navbar-signed-out](https://github.com/user-attachments/assets/609701e3-7bf0-4788-a9eb-aed1b49fb540)|
+| As a logged in user I can create posts so that I can share my posts | Y   |![add-post-page](https://github.com/user-attachments/assets/ed25eefc-5191-4cea-bf53-0af6f7ff57c9)|
+| As a logged in user I can like a post so that show interest in the post | Y   |![like:comment](https://github.com/user-attachments/assets/58ac7162-f870-4c8c-b4ad-fd0856101658)|
+| As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content | Y   |![homepage](https://github.com/user-attachments/assets/b1b0d1e5-2051-4fab-b5be-82870dfaf81c)|
+| As a user, I can search for posts with keywords, so that I can find the posts, profiles and events that are of interest| Y   |<img width="440" alt="post-searchbar" src="https://github.com/user-attachments/assets/52aead40-a577-486f-816c-e09163f96b98" />|
+| As a logged in user I can view the posts I liked so that I can find the posts I enjoy the most | Y   |![liked-page](https://github.com/user-attachments/assets/66464433-8fbd-44a4-926a-ce41cc7d211c)|
 | As a user i can continuously scroll through the posts so that i can keep seeing more posts without having to switch pages | Y   |  |
-| As a user I can view the posts page so that I can read the comments about the post | Y   | ![comment](https://github.com/user-attachments/assets/43f5e04b-5a8d-4333-b708-258e32595b5a)
- |
-| As a post owner I can edit my post title and description so that I can make corrections or update my post after it was created | Y   | ![post-edit](https://github.com/user-attachments/assets/2c808eb1-f0e9-46b7-a515-d8f39d76fc9a)
- |
-| As a logged in user I can add comments to a post so that I can share my thoughts about the post | Y   | ![comment](https://github.com/user-attachments/assets/511480fd-05c1-4cc4-aa15-d796076c63ea)
- |
-| As a user I can see how long ago a comment was made so that I know how old a comment is | Y   | ![comment](https://github.com/user-attachments/assets/d7459101-4bb0-4190-b6bd-e28c9120547b)
- |
-| As a user I can read comments on posts so that I can read what other users feedback about the posts | Y   |![comment](https://github.com/user-attachments/assets/109d7f9a-1667-4ad9-baba-6a68369390c7)
-|
-| As the creator of the comment i can delete my comment so that i can remove my own comment | Y   |![comment-delete](https://github.com/user-attachments/assets/10948742-4462-45a2-8077-098d8c95e6e7)
-|
-| As the creator of a comment i can edit my comments so that i can fix any errors on the existing comment | Y   | ![comment-edit](https://github.com/user-attachments/assets/cdeacaaf-ecd5-44af-9b47-72ab1b494d3d)
- |
-| As a user I can view other users profiles so that I can see their posts and learn more about them | Y   |![profile-view](https://github.com/user-attachments/assets/97296c61-398e-4716-8940-e8b8ad89be1e)
-|
-| As a logged in user I can edit my profile so that I can change any infomation required on my profile | Y   | ![profile-edit](https://github.com/user-attachments/assets/5d0377d1-daaa-4954-b832-6f0b06109fb7)
- |
-| As a logged in user I can update my username and password so that I can change my display name and keep my profile secure | Y   |![profile-edit](https://github.com/user-attachments/assets/58780de7-6658-4d78-9bc1-fe5d97b44f0a)
-|
-| As a user, i want to be able to see the most popular profiles so i can see which profiles are popular. | Y   | ![most-followed-profiles](https://github.com/user-attachments/assets/914c7d9b-fd17-48c8-8bf2-806929134a99)
- |
-| As a user i want to be able to follow and unfollow other users so i can either see or remove their content from my feed. | Y   |![most-followed-profiles](https://github.com/user-attachments/assets/626d9908-0775-4696-8cd3-10325db7b6cb)
-|
-| As a use, i want to be able to see the events page so that i can look through any events that may interest me. | Y   |![events-page](https://github.com/user-attachments/assets/41baf322-c453-4223-878f-411ba539c7c5)
-|
+| As a user I can view the posts page so that I can read the comments about the post | Y   | ![comment](https://github.com/user-attachments/assets/43f5e04b-5a8d-4333-b708-258e32595b5a)|
+| As a post owner I can edit my post title and description so that I can make corrections or update my post after it was created | Y   | ![post-edit](https://github.com/user-attachments/assets/2c808eb1-f0e9-46b7-a515-d8f39d76fc9a)|
+| As a logged in user I can add comments to a post so that I can share my thoughts about the post | Y   | ![comment](https://github.com/user-attachments/assets/511480fd-05c1-4cc4-aa15-d796076c63ea)|
+| As a user I can see how long ago a comment was made so that I know how old a comment is | Y   | ![comment](https://github.com/user-attachments/assets/d7459101-4bb0-4190-b6bd-e28c9120547b)|
+| As a user I can read comments on posts so that I can read what other users feedback about the posts | Y   |![comment](https://github.com/user-attachments/assets/109d7f9a-1667-4ad9-baba-6a68369390c7)|
+| As the creator of the comment i can delete my comment so that i can remove my own comment | Y   |![comment-delete](https://github.com/user-attachments/assets/10948742-4462-45a2-8077-098d8c95e6e7)|
+| As the creator of a comment i can edit my comments so that i can fix any errors on the existing comment | Y   | ![comment-edit](https://github.com/user-attachments/assets/cdeacaaf-ecd5-44af-9b47-72ab1b494d3d)|
+| As a user I can view other users profiles so that I can see their posts and learn more about them | Y   |![profile-view](https://github.com/user-attachments/assets/97296c61-398e-4716-8940-e8b8ad89be1e)|
+| As a logged in user I can edit my profile so that I can change any infomation required on my profile | Y   | ![profile-edit](https://github.com/user-attachments/assets/5d0377d1-daaa-4954-b832-6f0b06109fb7)|
+| As a logged in user I can update my username and password so that I can change my display name and keep my profile secure | Y   |![profile-edit](https://github.com/user-attachments/assets/58780de7-6658-4d78-9bc1-fe5d97b44f0a)|
+| As a user, i want to be able to see the most popular profiles so i can see which profiles are popular. | Y   | ![most-followed-profiles](https://github.com/user-attachments/assets/914c7d9b-fd17-48c8-8bf2-806929134a99)|
+| As a user i want to be able to follow and unfollow other users so i can either see or remove their content from my feed. | Y   |![most-followed-profiles](https://github.com/user-attachments/assets/626d9908-0775-4696-8cd3-10325db7b6cb)|
+| As a use, i want to be able to see the events page so that i can look through any events that may interest me. | Y   |![events-page](https://github.com/user-attachments/assets/41baf322-c453-4223-878f-411ba539c7c5)|
 
 
 
