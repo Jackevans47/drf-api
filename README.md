@@ -66,7 +66,12 @@ The strategy trade-off is to make the application as user friendly as possible.
 
  - This will allow users to be able to interact with events more by allowing them to like and comment on events they like and share their feedback.
 
+3. During development found that some images set on profile picture are slightly bigger than others, due to time restrictions this will be fixed in future improvements.
 
+
+![profile-image-bug](https://github.com/user-attachments/assets/ec660c2b-977b-4990-ae38-109830cbb1e6)
+
+4. Events page will be fully interactive in future updates including details including ticket purchases.
 
 ## Technologies used
 
