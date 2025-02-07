@@ -91,18 +91,6 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Code Validation
 
 ### HTML Validation:
@@ -145,3 +133,21 @@ According to the reports, the code is [Pep 8-compliant](https://legacy.python.or
 - For python validation I have used the official [Pep8Online](http://pep8online.com/) validator
 
 ---
+
+
+## Compatibility
+
+Testing was conducted on the following browsers;
+- Chrome;
+
+![chrome-home](https://github.com/user-attachments/assets/c7d342e2-a88b-498d-bcd7-5c4c8f1016ff)
+![chrome-events](https://github.com/user-attachments/assets/13682de8-af01-4a08-a48d-063032e02281)
+![chrome-profile](https://github.com/user-attachments/assets/cae35191-a78c-459d-b9c0-3701c13c1f58)
+
+
+
+- Firefox;
+
+![firefox-home](https://github.com/user-attachments/assets/65fff2c4-a745-4cc8-85f4-b02289274f09)
+![firefox-events](https://github.com/user-attachments/assets/4d570061-5401-4c4f-97e6-2e6aacc63e64)
+![firefox-profile](https://github.com/user-attachments/assets/4c48efe4-bfcc-4663-9e6d-ebcbfd297b36)
