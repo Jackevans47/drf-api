@@ -53,6 +53,10 @@ Usability was tested with the below user acceptance testing to ensure testing fr
 | 2 | Click on the upload image | folder is opened allowing user to upload image | Y   |             |
 | 3 | Click on the Create button with filled fields | post has now been created | Y   |             |
 | 4 | Click on the cancel button | User is returned to the home page | Y   |             |
+| Events  |                        |                  |      |             |
+| 1 | Click on the searchbar and search for events | events are filtered based on what the user types | Y   |             |
+| 2 | User scrolls down the page | all posts are loaded without having to click next page| Y   |             |
+
 
 
 
